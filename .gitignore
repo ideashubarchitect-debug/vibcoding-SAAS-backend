@@ -1,5 +1,6 @@
 # Dependencies
 vendor/
+composer.phar
 
 # Environment (never commit secrets)
 .env
