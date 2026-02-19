@@ -1,0 +1,25 @@
+# Dependencies
+vendor/
+
+# Environment (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Storage
+storage/cache/*
+storage/logs/*
+storage/uploads/*
+!storage/cache/.gitkeep
+!storage/logs/.gitkeep
+!storage/uploads/.gitkeep
+
+# PHP / IDE
+*.phpunit.result.cache
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
